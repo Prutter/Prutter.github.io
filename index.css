@@ -175,6 +175,9 @@ label.logo{
 #nav-menu ul{
     float: right;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #nav-menu li{
     display: inline-block;
