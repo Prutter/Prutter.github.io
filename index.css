@@ -1,0 +1,308 @@
+ /* PROJECT sTYLING */
+#projects{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,447px);
+    gap: 28px;
+}
+ .project-card{
+    background-color: #262A56;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: #262A56;
+}
+#main{
+    border: 3px solid black;
+    width: 58%;
+    background-color: #262A56;
+}
+#second{
+    width: 38%;
+    background-color: #262A56;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,47%);
+    gap: 10px;
+    padding: 4px;
+    border: 3px solid black;   
+}
+#second div{
+    background-color: blue;
+    border: 3px solid black;   
+}
+.address1, .address2{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+.project-github-link, .project-deployed-link{
+    width: 10%;
+}
+.project-title{
+    width: 70%;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.project-description{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    height: auto;
+    padding: 5px;
+}
+.address2 div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+.address2 div:nth-child(2) div{
+    width: 15%;
+}
+.address2 div:nth-child(2)>div{
+    font-size: 25px;
+}
+
+
+/* HOME STYLING */
+#home{
+    width: 80%;
+    margin: auto;
+    height: 300px; 
+    border: 6px solid white;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: #262A56;
+    border-radius: 30px;
+}
+#home> img{
+    width:40%;
+    height: auto;
+    border-radius: 30px;
+}
+#home > div{
+    width: 50%;
+    height: 100%;
+}
+#home>div>img{
+    width: 92%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* HOME STYLING */
+.home-img-div{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resume-section{
+    margin-top: 27px;
+}
+
+
+*{
+    margin:  0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    text-align: center;
+    background-color: rgb(243, 133, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    top: 0;
+    position: sticky;
+    background-color:#262A56;
+}
+section{
+    margin-bottom: 70px;
+}
+#nav-menu{
+    height: 80px;
+    width: 100%;
+    background-color: #262A56;
+}
+#option{
+    display:none;
+    height: 80%;
+}
+#option>span{
+    width:50px;
+    height: 3px;
+    font-size: 66px;
+    background-color: #ddd;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    padding: 0 80px;
+    line-height:80px;
+    margin-left: 5px;
+}
+.calendar{
+    background-color: white;
+    width:83%;
+    height: 300px;
+    margin:auto;
+    margin-top:50px;
+    
+}
+#nav-menu ul{
+    float: right;
+    margin-right: 10px;
+}
+#nav-menu li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.nav-link a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+    color: orange;
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* SKILLS Styling */
+#skills{
+    margin-top: 70px;
+    margin: auto;
+    width: 95%;
+    padding: 0 10px ;
+    display: grid;
+    grid-template-columns: repeat(6,130px);
+    grid-template-rows: repeat(2,130px);
+    justify-content: space-evenly;
+    align-content: space-around;
+    gap: 30px;
+}
+.skills-card{
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: #262A56;
+    color: orange;
+    text-align: center;
+    /* transform: rotate(+30deg); */
+}
+.skills-card-img{
+    width: 80%;
+    height: 80%;
+}
+
+
+ /* CONTACTS STYLING */
+#contact{
+    margin-top: 70px;
+    margin-top: 70px;
+    margin: auto;
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: repeat(2,140px);
+    justify-content: space-evenly;
+    align-content: space-around;
+    gap: 30px;
+}
+#contact h2{
+    color: orange;
+}
+#contact h3{
+    font-size: 18px;
+}
+.contacts-card{
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: #262A56;
+    color: #7AA874;
+    text-align: center;
+    padding: 10px;
+}
+
+.contacts-card-img{
+    width: 26%;
+    height: 50%;
+    border: 4px solid white;
+    border-radius: 14px;
+}
+#contact-leetcode:hover, #contact-linkedin:hover, #contact-github:hover{
+    color: orange;
+}
+
+#user-detail-name{
+    font-size: 30px;
+}
+
+/* HEADING STYLING */
+.heading, .heading-1{
+    font-size: 40px;
+    font-weight: bold;
+    width: 50%;
+    color: #262A56;
+    margin:50px auto;
+    border-left: 4px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+    box-shadow: rgba(250, 152, 23, 0.4) -5px 5px, rgba(58,16,180, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#statistics div img{
+    border: 4px solid white;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+
+#about{
+    border: 10px solid white;
+    width: 90%;
+    margin: auto;
+}
+#about .nav-link{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #262A56;
+}
+.make{
+    width: 60%;
+}

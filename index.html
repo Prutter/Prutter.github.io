@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashish Bansal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css">
+</head>
+<body>
+    <header>
+        <nav id="nav-menu">
+            <label class="logo" onclick="fresh()">Kashish Bansal</label>
+            <ul>
+                <li class="nav-link home"><a class="active" href="#home">Home</a></li>
+                <li class="nav-link about"><a href="#about">About</a></li>
+                <li class="nav-link skills"><a href="#skills">Skills</a></li>
+                <li class="nav-link stats"><a href="#statistics">Stats</a></li>
+                <li class="nav-link projects"><a href="#projects">Projects</a></li>
+                <li class="nav-link contact"><a href="#contact">Contacts</a></li>
+                <li class="nav-link" id="resume" >
+                    <a href="/documents/Kashish_Bansal_Resume.pdf" class="active" target="_blank" id="resume-button-1" onclick="window.open('/documents/Kashish_Bansal_Resume.pdf')" download="">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="./documents/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136323037372f73637265656e73686f74732f333834383931342f70726f6772616d6d65722e676966.gif" alt="">
+        <div>
+            <img src="./documents/WhatsApp Image 2023-05-10 at 16.53.01.jpeg" alt="">
+        </div>
+    </section>
+
+
+    <div class="heading">About Me</div>
+    <section id="about" class="about section">
+        <div class="nav-link">
+            <div class="home-img-div"><img class="home-img" src="./documents/4x6-modified.png" alt="" style="width:100%"></div>
+            <div class="make" style="display: grid;justify-content: center;align-content: center;">
+                <div id="user-detail-name" style="color: orange;"><h1>About Kashish Bansal</h1></div>
+                <div id="user-detail-intro" style="color: white; font-size: 19px;border: 3px solid white; padding:1% 3%;margin: 5px 0;"><p>Aspiring Java Backend Developer with a specialization in
+                    Java, Spring Boot, SQL, Rest APIs, HTML, JavaScript, CSS, Object
+                    oriented designing . Self-motivated and curious developer
+                    with a keen interest in building user-centric products. Strong
+                    creative and analytical skills to adhere solution-driven
+                    projects and ideas. Looking forward to honing skills and
+                    knowledge in a challenging work environment.</p>
+                </div>
+
+                <!-- <li class="nav-link resume" id="resume" >
+                    <a href="/documents/Kashish_Bansal_Resume.pdf" class="active" target="_blank" id="resume-button-1" onclick="window.open('/documents/Kashish_Bansal_Resume.pdf')" download="">Resume</a>
+                </li> -->
+
+                <div id="resume-section">
+                    <span style="color: white;font-size: 20px;" id="resume-button-2">To downoad resume click here </span>
+                        <a href="./documents/Kashish_Bansal_Resume.pdf" target="_blank" class="active" onclick="window.open('/documents/Kashish_Bansal_Resume.pdf')" download="">Resume</a>
+                    </div>
+                </div>
+
+                <!-- <div id="resume-button-2" style="width: 20%; margin: 10px auto;">
+                    <a href="/documents/Kashish_Bansal_Resume.pdf" class="active" target="_blank" id="resume-button-2" onclick="window.open('/documents/Kashish_Bansal_Resume.pdf')" download="">Resume</a>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="heading">My Skills & Frameworks</div>
+    <section id="skills">
+        <div class="skills-card">
+            <img src="resources/skills/html.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">HTML</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/css.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">CSS</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/js.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">Javascript</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/java.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">Java</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/mysql.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">MySQL</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/hibernate.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">Hibernate</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/restapi.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">REST API</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/spring.jpg" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">Spring</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/dsa2.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">DSA</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/npm.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">NPM</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/git.png" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">Git</h3>
+        </div>
+        <div class="skills-card">
+            <img src="resources/skills/github.jpg" alt="" class="skills-card-img">
+            <h3 class="skills-card-name">Github</h3>
+        </div>
+    </section>
+
+   
+    <div class="heading">My Coding Statistics</div>
+    <section id="statistics" style="width: 90%;margin: auto;display: flex;flex-direction: column;">
+        <div  class="react-activity-calendar calendar" style="width:80%;margin: auto;">
+            <!-- <img src="https://i.ibb.co/zHkWyhw/bandicam-2023-05-10-14-56-01-345.jpg" alt="" style="width: 96%;margin: auto;"> -->
+        </div>
+        <div id="github-stats-section" style="display: flex;flex-direction: column;">
+            <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Prutter" alt=""/>
+            <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Prutter" alt="">
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prutter" alt=""/>
+        </div>
+    </section>
+
+    <div class="heading">My Projects</div>
+    <section id="projects" style="width: 90%;margin: auto;">
+        <div class="project-card">
+            <div class="images">
+                <div id="main">
+                    <img src="./resources/logo/Kashish bansal (1).png" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <div id="second">
+                    <div onclick="div1()"><img src="./resources/skills/java.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div2()"><img src="./resources/skills/css.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div3()"><img src="./resources/skills/git.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div4()"><img src="./resources/skills/spring.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                </div>
+            </div>
+            <div class="address1">
+                <div class="project-github-link">
+                    <a href="" target="_blank"><img src="./resources/skills/github.jpg" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+                <div class="project-title" style="text-align: center;font-weight: 800;">My title of project-1</div>
+                <div class="project-deployed-link">
+                    <a href="" target="_blank"><img src="./resources/skills/download (2).png" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+            </div>
+            <p class="project-description" style="width: 90%;height: 100px;padding: 4px;margin: auto;;font-weight: 800;margin-top: 10px;text-align: justify;background-color:gray;border: 2px solid white;border-radius: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium in reiciendis vero accusamus fuga itaque doloremque nisi nobis similique veritatis. Eligendi earum assumenda reiciendis labore ab consectetur necessitatibus ipsum corporis.</p>
+            <div class="address2">
+                <div style="height: 100%;width: 40%;background-color:gray;display: flex;justify-content: center;align-items: center;color: black;border: 2px solid white;border-radius: 10px;font-weight: 800;">Tech Stack Used</div>
+                <div style="width: 50%;height: auto;background-color:gray;border: 2px solid white;border-radius: 10px;height: 40px;">
+                    <div><img src="./resources/skills/html.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/css.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/js.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/spring.jpg" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/mysql.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-card">
+            <div class="images">
+                <div id="main">
+                    <img src="./resources/logo/Kashish bansal (1).png" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <div id="second">
+                    <div onclick="div5()"><img src="./resources/skills/java.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div6()"><img src="./resources/skills/css.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div7()"><img src="./resources/skills/git.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div8()"><img src="./resources/skills/spring.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                </div>
+            </div>
+            <div class="address1">
+                <div class="project-github-link">
+                    <a href="" target="_blank"><img src="./resources/skills/github.jpg" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+                <div class="project-title" style="text-align: center;font-weight: bold;">My title of project-1</div>
+                <div class="project-deployed-link">
+                    <a href="" target="_blank"><img src="./resources/skills/download (2).png" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+            </div>
+            <p class="project-description" style="width: 90%;height: 110px;padding: 4px;margin: auto;;font-weight: 800;margin-top: 10px;text-align: justify;background-color: gray;border: 2px solid white;border-radius: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium in reiciendis vero accusamus fuga itaque doloremque nisi nobis similique veritatis. Eligendi earum assumenda reiciendis labore ab consectetur necessitatibus ipsum corporis.</p>
+            <div class="address2">
+                <div style="height: 100%;width: 40%;background-color:gray;display: flex;justify-content: center;align-items: center;color: black;border: 2px solid white;border-radius: 10px;font-weight: 800;">Tech Stack Used</div>
+                <div style="width: 50%;height: auto;background-color:gray;border: 2px solid white;border-radius: 10px;height: 40px;">
+                    <div><img src="./resources/skills/html.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/css.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/js.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/spring.jpg" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/mysql.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-card">
+            <div class="images">
+                <div id="main">
+                    <img src="./resources/logo/Kashish bansal (1).png" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <div id="second">
+                    <div onclick="div9()"><img src="./resources/skills/java.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div10()"><img src="./resources/skills/css.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div11()"><img src="./resources/skills/git.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div12()"><img src="./resources/skills/spring.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                </div>
+            </div>
+            <div class="address1">
+                <div class="project-github-link">
+                    <a href="" target="_blank"><img src="./resources/skills/github.jpg" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+                <div class="project-title" style="text-align: center;font-weight: bold;">My title of project-1</div>
+                <div class="project-deployed-link">
+                    <a href="" target="_blank"><img src="./resources/skills/download (2).png" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+            </div>
+            <p class="project-description" style="width: 90%;height: 110px;padding: 4px;margin: auto;;font-weight: 800;margin-top: 10px;text-align: justify;background-color:gray;border: 2px solid white;border-radius: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium in reiciendis vero accusamus fuga itaque doloremque nisi nobis similique veritatis. Eligendi earum assumenda reiciendis labore ab consectetur necessitatibus ipsum corporis.</p>
+            <div class="address2">
+                <div style="height: 100%;width: 40%;background-color:gray;display: flex;justify-content: center;align-items: center;color: black;border: 2px solid white;border-radius: 10px;font-weight: 800;">Tech Stack Used</div>
+                <div style="width: 50%;height: auto;background-color:gray;border: 2px solid white;border-radius: 10px;height: 40px;">
+                    <div><img src="./resources/skills/html.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/css.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/js.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/spring.jpg" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/mysql.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project-card">
+            <div class="images">
+                <div id="main">
+                    <img src="./resources/logo/Kashish bansal (1).png" alt="" style="width: 100%;height: 100%;">
+                </div>
+                <div id="second">
+                    <div onclick="div13()"><img src="./resources/skills/java.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div14()"><img src="./resources/skills/css.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div15()"><img src="./resources/skills/git.png" alt="" style="width: 100%;height: 100%;"></div>
+                    <div onclick="div16()"><img src="./resources/skills/spring.jpg" alt="" style="width: 100%;height: 100%;"></div>
+                </div>
+            </div>
+            <div class="address1">
+                <div class="project-github-link">
+                    <a href="" target="_blank"><img src="./resources/skills/github.jpg" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+                <div class="project-title" style="text-align: center;font-weight: bold;">My title of project-1</div>
+                <div class="project-deployed-link">
+                    <a href="" target="_blank"><img src="./resources/skills/download (2).png" alt="" style="width: 100%;height: 100%;border-radius: 20px;"></a>
+                </div>
+            </div>
+            <p class="project-description" style="width: 90%;height: 110px;padding: 4px;margin: auto;font-weight: 800;margin-top: 10px;text-align: justify;background-color:gray;border: 2px solid white;border-radius: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium in reiciendis vero accusamus fuga itaque doloremque nisi nobis similique veritatis. Eligendi earum assumenda reiciendis labore ab consectetur necessitatibus ipsum corporis.</p>
+            <div class="address2">
+                <div style="height: 100%;width: 40%;background-color:gray;display: flex;justify-content: center;align-items: center;color: black;border: 2px solid white;border-radius: 10px;font-weight: 800;">Tech Stack Used</div>
+                <div style="width: 50%;height: auto;background-color:gray;border: 2px solid white;border-radius: 10px;height: 40px;">
+                    <div><img src="./resources/skills/html.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/css.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/js.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/spring.jpg" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                    <div><img src="./resources/skills/mysql.png" alt="" style="width: 90%;height: 90%;border-radius: 20px;border: 2px solid black;"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="heading">My Contacts Details</div>
+    <section id="contact">
+        <div class="contacts-card">
+            <img src="/resources/media/email.png" alt="" class="contacts-card-img">
+            <h2>My Gmail Address</h2>
+            <h3 id="contact-email" style="color: white;">kashishbansal044@gmail.com</h3>
+        </div>
+        <div class="contacts-card">
+            <img src="/resources/media/phone.png" alt="" class="contacts-card-img">
+            <h2>My Mobile</h2>
+            <h3 id="contact-phone" style="color: white;">91+ 8700716992</h2>
+        </div>
+        <div class="contacts-card">
+            <img src="/resources/media/location.png" alt="" class="contacts-card-img">
+            <h2>My Location</h2>
+            <h3 id="contact-location" style="color: white;">New-Delhi, India</h3>
+        </div>
+        <div class="contacts-card">
+            <img src="/resources/media/github.jpg" alt="" class="contacts-card-img">
+            <h2>My Github Profile</h2>
+            <a href="https://github.com/Prutter" target="_blank" style="color: white;"><h3 id="contact-github">Prutter</h3></a> 
+        </div>
+        <div class="contacts-card">
+            <img src="/resources/media/linked.png" alt="" class="contacts-card-img">
+            <h2>My LinkedIn Profile</h2>
+            <a href="https://www.linkedin.com/in/kashish-bansal-842706147/" target="_blank" style="color: white;"><h3 id="contact-linkedin">kashish-bansal-842706147</h3></a>
+        </div>
+        <div class="contacts-card">
+            <img src="/resources/media/sdd.png" alt="" class="contacts-card-img">
+            <h2>My Leetcode Profile</h2>
+            <a href="https://leetcode.com/kashishbansal044/" target="_blank" style="color: white;"><h3 id="contact-leetcode">kashishbansal044</h3></a>
+        </div>
+    </section>
+
+    <hr style="width: 90%;height: 10px;background-color: rgb(71, 5, 80);margin: 10px auto 30px auto;">
+</body>
+</html>
+<script src="index.js"></script>
+<script  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+ GitHubCalendar(".calendar", "Prutter");
+ GitHubCalendar(".calendar", "Prutter", { responsive: true});
+</script>
