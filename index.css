@@ -184,7 +184,7 @@ label.logo{
     margin: 0 8px;
     line-height: 80px;
 }
-.nav-link a{
+.nav-link a, .nav-linked a{
     color: white;
     font-size: 20px;
     text-transform: uppercase;
@@ -300,7 +300,7 @@ nav #icon{
     width: 90%;
     margin: auto;
 }
-#about .nav-link{
+#about .nav-link, .nav-linked{
     display: flex;
     justify-content: space-around;
     align-content: center;
