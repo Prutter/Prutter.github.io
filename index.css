@@ -145,6 +145,7 @@ nav{
     width: 100%;
     background-color: #262A56;
     display: flex;
+    justify-content: space-between;
 }
 #option{
     display:none;
@@ -173,10 +174,7 @@ label.logo{
     margin-top:50px;
 }
 #nav-menu ul{
-    float: right;
-    margin-right: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 #nav-menu li{
@@ -206,15 +204,7 @@ a.active,a:hover{
     transition: .5s;
     color: orange;
 }
-nav #icon{
-    color: white;
-    font-size: 30px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
+
 
 /* SKILLS Styling */
 #skills{
