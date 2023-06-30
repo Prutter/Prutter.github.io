@@ -170,7 +170,6 @@ label.logo{
     height: 300px;
     margin:auto;
     margin-top:50px;
-    
 }
 #nav-menu ul{
     float: right;
@@ -178,29 +177,6 @@ label.logo{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.toggle_btn{
-    font-size: 25px;
-    color: white;
-    display: none;
-    cursor: pointer;
-}
-.dropdown{
-    display: none;
-    position: absolute;
-    right: 2rem;
-    top: 60px;
-    width: 200px;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.dropdown.open{
-    height: 240px;
-}
-.dropdown li{
-    align-items: center;
-    justify-content: center;
 }
 #nav-menu li{
     display: inline-block;
@@ -214,6 +190,23 @@ label.logo{
     border: 1px solid transparent;
     border-radius: 3px;
     padding: 7px 10px;
+}
+.toggle_btn{
+    font-size: 25px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.dropdown{
+    display: none;
+    position: sticky;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown div{
+    align-items: center;
+    justify-content: center;
 }
 a.active,a:hover{
     border: 1px solid white;

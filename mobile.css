@@ -1,4 +1,13 @@
 @media (min-width:157px) and (max-width: 552px) {
+    .nav-linked{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-img-div{
+        width: 60%;
+    }
     #contact{
         grid-template-columns: repeat(1,350px);
         grid-template-rows: repeat(6,140px);
@@ -48,7 +57,7 @@
     }
     #nav-menu{
         display: flex;
-        height: 80px;
+        height: auto;
         flex-direction: column;
         text-align: center;
     }
@@ -77,7 +86,8 @@
         margin-left: 10%;
     }
     .project-title{
-        font-size: 20px;
+        font-size: 16px;
+        font-weight: bold;
     }
     .project-description{
         font-size: 13px;
@@ -93,18 +103,30 @@
         width: 30%;
         margin: auto;
     }
-
-    .nav-link{
+    #resume-section{
+        padding: 2px 4px;
+    }
+    #disclose{
         display: none;
     }
+    #disclose li{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+        width: 100%;
+    }
+    .dropdown > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .toggle_btn{
+        color: white;
         display: block;
     }
     .toggle_btn:hover{
-        color: orange;
-    }
-    .dropdown{
-        display: block;
+        color: grey;
     }
 }
 
