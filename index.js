@@ -1,11 +1,12 @@
 const toggle = document.querySelector(".toggle_btn");
 
-toggle.onclick = function(){
-    const dropdown = document.querySelector("#nav-menu ul");
-    if(dropdown.style.display == 'none')
-    dropdown.style.display == 'block';
-    else if(dropdown.style.display == 'block')
-    dropdown.style.display == 'none';    
+function  todo(){
+    var dropdown = document.querySelectorAll("nav li");
+
+    if(dropdown.style.display === "none")
+    dropdown.style.display = "block";
+    else
+    dropdown.style.display = "none";    
 }
 
 let titles =["Organic Oasis Vegetable Store", "Real Estate Management", "Let's Go Expedium" ,"Cronometer"];
