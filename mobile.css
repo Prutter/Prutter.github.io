@@ -55,6 +55,7 @@
     label.logo{
         text-align: left;
         width: 70%;
+        margin-left: -17px;
         font-size: 45px;
     }
     .fa{
