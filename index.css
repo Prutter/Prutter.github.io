@@ -198,6 +198,9 @@ label.logo{
     display: none;
     cursor: pointer;
 }
+.fa{
+    display: none;
+}
 a.active,a:hover{
     border: 1px solid white;
     transition: .5s;

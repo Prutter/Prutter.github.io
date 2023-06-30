@@ -55,7 +55,11 @@
     label.logo{
         text-align: left;
         width: 60%;
-        font-size: 30px;
+        font-size: 23px;
+    }
+    .fa{
+        display: block;
+        margin-right: 20px;
     }
     #nav-menu{
         display: flex;
