@@ -175,9 +175,32 @@ label.logo{
 #nav-menu ul{
     float: right;
     margin-right: 10px;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+}
+.toggle_btn{
+    font-size: 25px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown.open{
+    height: 240px;
+}
+.dropdown li{
+    align-items: center;
+    justify-content: center;
 }
 #nav-menu li{
     display: inline-block;

@@ -93,6 +93,19 @@
         width: 30%;
         margin: auto;
     }
+
+    .nav-link{
+        display: none;
+    }
+    .toggle_btn{
+        display: block;
+    }
+    .toggle_btn:hover{
+        color: orange;
+    }
+    .dropdown{
+        display: block;
+    }
 }
 
 
