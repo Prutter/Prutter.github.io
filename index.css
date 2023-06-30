@@ -140,10 +140,11 @@ header{
 section{
     margin-bottom: 70px;
 }
-#nav-menu{
+nav{
     height: 80px;
     width: 100%;
     background-color: #262A56;
+    display: flex;
 }
 #option{
     display:none;

@@ -114,10 +114,14 @@
     }
     #nav-menu{
         display: flex;
+        justify-content: space-between;
     }
     #nav-menu ul{
         display: flex;
         flex-direction: column;
+    }
+    #nav-menu ul{
+        display: none;
     }
     #nav-menu ul li{
         height: 70px;

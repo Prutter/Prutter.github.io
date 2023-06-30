@@ -1,12 +1,12 @@
-// const toggle = document.querySelector(".toggle_btn");
-// const dropdown = document.querySelector(".dropdown");
-// const icon = document.querySelector(".toggle_btn i");
+const toggle = document.querySelector(".toggle_btn");
 
-// toggle.onclick = function(){
-//     dropdown.classList.toggle('open')
-//     const isopen = dropdown.classList.contains('open')
-//     icon.classList = isopen ? "fa fa-x" : "fa-solid fa-bars" ; 
-// }
+toggle.onclick = function(){
+    const dropdown = document.querySelector("#nav-menu ul");
+    if(dropdown.style.display == 'none')
+    dropdown.style.display == 'block';
+    else if(dropdown.style.display == 'block')
+    dropdown.style.display == 'none';    
+}
 
 let titles =["Organic Oasis Vegetable Store", "Real Estate Management", "Let's Go Expedium" ,"Cronometer"];
 
