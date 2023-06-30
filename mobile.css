@@ -54,7 +54,8 @@
     }
     label.logo{
         text-align: left;
-        width: 60%;
+        width: 70%;
+        margin-left: 5px;
         font-size: 45px;
     }
     .fa{
