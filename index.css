@@ -197,17 +197,6 @@ label.logo{
     display: none;
     cursor: pointer;
 }
-.dropdown{
-    display: none;
-    position: sticky;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.dropdown div{
-    align-items: center;
-    justify-content: center;
-}
 a.active,a:hover{
     border: 1px solid white;
     transition: .5s;
